@@ -17,3 +17,9 @@ for (let i = 0;i<listItems.length;i++) {
         Object.assign(listItems[i].style, {color: 'red', background: 'white'})
     }
 }
+let p = document.createElement('img')
+p.src = "Mark Oliver.jpg"
+//Object.assign(p.style, {transform: rotate('90deg')})
+p.width = 306
+p.height = 408
+body.appendChild(p)
